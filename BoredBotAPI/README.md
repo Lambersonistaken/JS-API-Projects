@@ -1,4 +1,4 @@
-# cod1345c39d35940d1534044d
+# BoredBotAPI project from Scrimba!
 
 ## About Scrimba
 
