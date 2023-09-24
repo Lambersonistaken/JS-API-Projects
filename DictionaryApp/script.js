@@ -25,6 +25,6 @@ btn.addEventListener("click", () => {
   <p class="word-example">
         ${data[0].meanings[0].definitions[0].example || ""}
   </p>`;
-      sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
+      sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`); // burada ses dosyasının linkini aldık
     });
 });
