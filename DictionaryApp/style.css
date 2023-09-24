@@ -91,3 +91,8 @@ background-color: #ae9cff;
     padding-left: 20px;
     margin-top: 30px;
 }
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
