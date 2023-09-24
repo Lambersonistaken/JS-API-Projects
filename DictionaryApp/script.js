@@ -16,14 +16,15 @@ btn.addEventListener("click", () => {
       </button>
   </div>
   <div class="details">
-      <p>pos</p>
-      <p>/sample/</p>
+      <p>${data[0].meanings[0].partOfSpeech}</p>
+      <p>${data[0].phonetic}</p>
   </div>
   <p class="word-meaning">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      ${data[0].meanings[0].definitions[0].definition}
   </p>
   <p class="word-example">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, facilis?
+        ${data[0].meanings[0].definitions[0].example || ""}
   </p>`;
+      sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
     });
 });
